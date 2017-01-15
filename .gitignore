@@ -1,0 +1,12 @@
+.nuget
+
+.vs
+
+
+packages
+bin
+obj
+
+
+*.DotSettings
+*.user
