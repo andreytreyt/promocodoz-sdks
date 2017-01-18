@@ -59,7 +59,7 @@ namespace Promocodoz.SDK.WP81
 
             if (response.StatusCode != HttpStatusCode.OK)
             {
-                promocodozRestClientResponse.Message = result;
+                promocodozRestClientResponse.Message = JsonConvert.DeserializeObject<ResponseJsonModel>(result).Message;
             }
             else
             {
