@@ -9,18 +9,18 @@ namespace Promocodoz.SDK.UWP
     {
         private const string Url = "http://promocodoz.com/api/code";
 
-        public PromocodozRestClient(string sid, string secret, string code, Platform platform)
+        public PromocodozRestClient(string sid, string secret, string code)
         {
             Sid = sid;
             Secret = secret;
             Code = code;
-            Platform = platform;
+            Platform = "Windows";
         }
 
         public string Sid { get; protected set; }
         public string Secret { get; protected set; }
         public string Code { get; protected set; }
-        public Platform Platform { get; protected set; }
+        public string Platform { get; protected set; }
 
         public async Task<string> SendCodeAsync()
         {
