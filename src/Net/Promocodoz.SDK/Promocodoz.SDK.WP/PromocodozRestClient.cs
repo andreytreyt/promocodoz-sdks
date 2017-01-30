@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace Promocodoz.SDK.WP81
+namespace Promocodoz.SDK.WP
 {
     public class PromocodozRestClient
     {

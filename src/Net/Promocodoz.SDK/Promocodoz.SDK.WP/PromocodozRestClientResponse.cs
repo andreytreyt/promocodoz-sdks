@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Promocodoz.SDK.WP81
+namespace Promocodoz.SDK.WP
 {
     internal class PromocodozRestClientResponse
     {
